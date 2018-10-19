@@ -1,0 +1,47 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+        <title>Guess the Number game</title>
+    </head>
+    <body>
+        <div class="box clearfix">
+            <div class="player-0-panel active">
+                <div class="enterNumber">Enter the number</div>
+                <input type="number" class="input" id="number">
+                <div class="number">
+                    <input class="button" type="button" id="myBtn" onclick="clickNumber(value)" value="1">
+                    <input class="button" type="button" id="myBtn" onclick="clickNumber(value)" value="2">
+                    <input class="button" type="button" id="myBtn" onclick="clickNumber(value)" value="3">
+                    <input class="button" type="button" id="myBtn" onclick="clickNumber(value)" value="4">
+                    <input class="button" type="button" id="myBtn" onclick="clickNumber(value)" value="5">
+                    <input class="button" type="button" id="myBtn" onclick="clickNumber(value)" value="6">
+                    <input class="button" type="button" id="myBtn" onclick="clickNumber(value)" value="7">
+                    <input class="button" type="button" id="myBtn" onclick="clickNumber(value)" value="8">
+                    <input class="button" type="button" id="myBtn" onclick="clickNumber(value)" value="9">
+                    <input class="button" type="button" id="myBtn" onclick="clickNumber(value)" value="0">
+                </div>
+            </div>
+
+            <div class="player-1-panel">
+                <div class="comment">
+                    A number has been generated. Your task is to guess it.
+                </div>
+                <div class="comment">
+                    
+                </div>
+            </div>
+<!-- 
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+            
+            <img src="dice-5.png" alt="Dice" class="dice"> -->
+        </div>
+
+        <script src="guessNumber.js"></script>
+    </body>
+</html>
